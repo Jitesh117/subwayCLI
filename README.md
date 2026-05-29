@@ -38,3 +38,17 @@ Then use from anywhere:
 ```bash
 subwaycli -fps 24
 ```
+
+## Use Your Own Video
+
+Pass any local video file with `-video`:
+
+```bash
+subwaycli -video /absolute/path/to/video.mp4 -fps 24
+```
+
+Example:
+
+```bash
+subwaycli -video ~/Downloads/my-clip.mov -fps 30 -width 140 -height 45
+```
