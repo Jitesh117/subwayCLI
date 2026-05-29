@@ -1,0 +1,5 @@
+bin/
+dist/
+subwaycli
+*.log
+.DS_Store
